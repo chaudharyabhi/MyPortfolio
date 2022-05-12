@@ -4,6 +4,13 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.navbar{
+    background-color: rgb(11, 11, 18);
+    position: fixed;
+    width: 100%;
+    z-index: 2 ;
+}
+
 ul {
     display: flex;
     width: 100%;    
@@ -17,8 +24,8 @@ a{
 }
 
 li{
-    margin: 20px;
-    z-index: 2;
+    margin: 14px;
+    z-index: 4;
 }
 
 li a{
@@ -249,4 +256,60 @@ li a:hover{
     100%{
         animation-direction: reverse;
     }
+}
+
+/* second page starts from here */
+
+.second{
+    height: 100vh;
+    background-color: rgb(214, 214, 214);
+    /* margin-top: 20px; */
+    position: relative;
+}
+
+.second h2{
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding-top: 70px;
+    font-size: 34px;
+    color: rgb(76, 76, 76);
+}
+
+.line{
+    height: 4px;
+    width: 85px;
+    background-color: rgb(76, 76, 76);
+    margin: auto;
+        position: relative;
+        transform: translateX(500px);
+        opacity: 0;
+        transition: 1s all ease;
+}
+
+.line.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* project circles */
+
+.skills{
+    display: flex;
+    margin-top: 100px;
+}
+
+.skills div{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: yellow;
+    margin-top: 20%;
+    margin: auto;
+}
+
+.fa-solid{
+    font-size: 60px;
+    margin: auto;
+    padding: 40px;
+    color: rgb(26, 5, 40);
 }
