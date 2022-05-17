@@ -271,6 +271,7 @@ li a:hover{
     /* background-color: aquamarine; */
     text-align: center;
     padding-top: 70px;
+    padding-bottom: 10px;
     font-size: 34px;
     color: rgb(76, 76, 76);
 }
@@ -290,6 +291,50 @@ li a:hover{
     transform: translateY(0);
     opacity: 1;
 }
+
+/* Projects page styling here */
+
+.myProjects{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+
+.projects{
+    display: flex;
+    /* background-color: blue; */
+    justify-content: center;
+}
+
+.projects div{
+    height: 320px;
+    min-width: 380px;
+    background-color: aquamarine;
+    /* margin: auto; */
+    margin-top: 140px;
+}
+
+.p1 img{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* project circles */
 
